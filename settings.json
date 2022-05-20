@@ -1,0 +1,186 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "Multirotor",
+  "ViewMode": "FlyWithMe",
+  "ClockSpeed": 1.0,
+  "Vehicles": {
+    "drone_1": {
+      "VehicleType": "SimpleFlight",
+      "DefaultVehicleState": "Armed",
+      "EnableCollisionPassthrogh": false,
+      "EnableCollisions": true,
+      "AllowAPIAlways": false,
+      "RC": {
+        "RemoteControlID": 0,      
+        "AllowAPIWhenDisconnected": false
+      },
+      "Cameras": {
+        "front_left_custom": {
+          "CaptureSettings": [
+            {
+              "PublishToRos": 1,
+              "ImageType": 0,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 1,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 2,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 3,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 5,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            }
+          ],
+          "X": 0.50,
+          "Y": -0.06,
+          "Z": 0.10,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        }, 
+        "front_right_custom": {
+          "CaptureSettings": [
+            {
+              "PublishToRos": 1,
+              "ImageType": 0,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 1,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 2,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 3,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            },
+            {
+              "PublishToRos": 1,
+              "ImageType": 5,
+              "Width": 720,
+              "Height": 480,
+              "FOV_Degrees": 90,
+              "TargetGamma": 1.5
+            }
+          ],
+          "X": 0.50,
+          "Y": -0.06,
+          "Z": 0.10,
+          "Pitch": 0.0,
+          "Roll": 0.0,
+          "Yaw": 0.0
+        }
+      },
+      "X": 2,
+      "Y": 0,
+      "Z": 0,
+      "Pitch": 0,
+      "Roll": 0,
+      "Yaw": 0
+    }
+  },
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 1920,
+        "Height": 1080,
+        "FOV_Degrees": 90,
+        "AutoExposureSpeed": 100,
+        "MotionBlurAmount": 0
+      },
+      {
+        "ImageType": 3,
+        "Width": 1920,
+        "Height": 1080,
+        "FOV_Degrees": 90,
+        "AutoExposureSpeed": 100,
+        "MotionBlurAmount": 0
+      },
+      {
+        "ImageType": 5,
+        "Width": 1920,
+        "Height": 1080,
+        "FOV_Degrees": 90,
+        "AutoExposureSpeed": 100,
+        "MotionBlurAmount": 0
+      }
+    ]
+  },
+  "Recording": {
+    "RecordInterval": 0.01,
+    "Cameras": [
+      {
+        "CameraName": "0",
+        "VehicleName": "drone_1",
+        "Compress": true
+      }
+    ]
+  },
+  "SubWindows": [
+    {
+      "WindowID": 0,
+      "ImageType": 0,
+      "CameraName": "front_left_custom",
+      "Visible": true
+    },
+    {
+      "WindowID": 1,
+      "ImageType": 3,
+      "CameraName": "front_left_custom",
+      "Visible": true
+    },
+    {
+      "WindowID": 2,
+      "ImageType": 5,
+      "CameraName": "front_left_custom",
+      "Visible": true
+    }
+  ]
+}
