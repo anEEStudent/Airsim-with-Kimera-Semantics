@@ -4,7 +4,7 @@ This documents my attempt with feeding the RGB camera and depth caemra outputs o
 ![Demo](/assets/images/demo.gif)
 
 ## Environment
-1. PUbuntu 18.04 
+1. Ubuntu 18.04 
 2. Download ROS Melodic from the [ROS website](http://wiki.ros.org/melodic/Installation/Ubuntu)
 3, Download [Kimera-Semantics](https://github.com/MIT-SPARK/Kimera-Semantics)
 4. Download [Airsim](https://microsoft.github.io/AirSim/) and [UnrealEngine 4](https://www.unrealengine.com/en-US/download) (remember to check GCC version is greater than 8 when compiling Airsim) 
