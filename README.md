@@ -47,7 +47,7 @@ This documents my attempt with feeding the RGB camera and depth caemra outputs o
     - Follow (8)d
 
 
-##Parameters to take note of in the launch file for Kimera-Semantics:
+## Parameters to take note of in the launch file for Kimera-Semantics:
 1. Names of topics that Kimera reads as inputs
     - `left_cam_info_topic`
     - `right_cam_info_topic`
