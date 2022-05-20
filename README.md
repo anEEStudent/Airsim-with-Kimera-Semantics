@@ -1,7 +1,7 @@
 # Airsim-with-Kimera-Semantics
 This documents my attempt with feeding the RGB camera and depth caemra outputs of Airsim to Kimera Semantics. [Kimera-Semantics](https://github.com/MIT-SPARK/Kimera-Semantics) is a library that is able to do semantic labels with only depth and RGB inputs. From this demonstration clip that I have recorded below, there is still some work to be done.
 
-![Demo](/assets/images/demo.gif)
+![Demo](demo.gif)
 
 ## Environment
 1. Ubuntu 18.04 
